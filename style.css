@@ -1,0 +1,16 @@
+body {
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: -23px;
+}
+.i {
+  color: red;
+  position: relative;
+}
+.i:before {
+  content: "ı";
+  position: absolute;
+  color: black;
+}
